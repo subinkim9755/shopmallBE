@@ -1,0 +1,31 @@
+{
+  "name": "be",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/subinkim9755/shopmallBE#readme",
+  "bugs": {
+    "url": "https://github.com/subinkim9755/shopmallBE/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subinkim9755/shopmallBE.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/app.ts",
+    "start": "tsx src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "tsx": "^4.23.15"
+  }
+}
